@@ -1,0 +1,91 @@
+# ==========================
+# Java general
+# ==========================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# Ignore compiled and build output
+build/
+dist/
+nbbuild/
+nbdist/
+target/
+out/
+
+# ==========================
+# NetBeans specific
+# ==========================
+# Private project settings
+nbproject/private/
+# Build-generated files
+build/
+dist/
+# Ignore cache and compiled data
+*.log
+*.out
+
+# NetBeans Gradle cache
+.nb-gradle/
+
+# ==========================
+# IDEs (for safety)
+# ==========================
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+.apt_generated/
+.factorypath
+
+# ==========================
+# Database and sensitive files
+# ==========================
+# MySQL dumps or exported data
+*.sql
+*.db
+*.sqlite
+*.bak
+
+# Database configuration files (local credentials)
+db.properties
+database.properties
+config.properties
+application.properties
+application.yml
+
+# ==========================
+# Logs and temporary files
+# ==========================
+*.log
+logs/
+*.tmp
+*.swp
+*.swo
+*.old
+
+# ==========================
+# Operating System files
+# ==========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ==========================
+# Miscellaneous
+# ==========================
+# Java crash logs
+hs_err_pid*
+replay_pid*
+
+# Ignore test results or reports (optional)
+test-output/
+reports/
